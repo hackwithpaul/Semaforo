@@ -1,0 +1,29 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.semaforo {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #444;
+    transition: background-color 0.3s;
+}
+
+.roja:hover { background-color: red; }
+.amarilla:hover { background-color: yellow; }
+.verde:hover { background-color: green; }
